@@ -1,8 +1,10 @@
 import {IQueue} from "./IQueue";
 
+/** Структура данных - Очередь */
 export class Queue<T> implements IQueue<T> {
     private queue: T[] = [];
 
+    /** @inheritdoc */
     public get length(): number {
         return this.queue.length;
     }
@@ -13,18 +15,21 @@ export class Queue<T> implements IQueue<T> {
         }
     }
 
+    /** @inheritdoc */
     public add(item: T): void {
         this.queue.push(item);
     }
 
-    public get(): T {
+    /** @inheritdoc */
+    public get(): T | undefined {
         if (this.length === 0) {
-            throw Error("В очереди нет элементов");
+            return undefined;
         }
 
-        return this.queue.shift()!;
+        return this.queue.shift();
     }
 
+    /** @inheritdoc */
     public clear(): void {
         this.queue = [];
     }
