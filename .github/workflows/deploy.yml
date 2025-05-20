@@ -36,9 +36,9 @@ jobs:
           node-version: lts/*
           cache: 'npm'
       - name: Install dependencies
-        run: cd js-data-collection && npm ci
+        run: cd ./js-data-collection-docs && npm ci
       - name: Build
-        run: cd js-data-collection && npm run build
+        run: cd ./js-data-collection-docs && npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
