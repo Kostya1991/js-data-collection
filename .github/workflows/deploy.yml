@@ -12,5 +12,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Install
+        run: cd ./js-data-collection-docs && npm install
       - name: Build
         run: cd ./js-data-collection-docs && npm run build
