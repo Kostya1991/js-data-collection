@@ -13,4 +13,4 @@ jobs:
       - name: Checkout code
       - uses: actions/checkout@v4
       - name: Build
-        run: cd ./js-data-collection-docs && npm run build
+      - run: cd ./js-data-collection-docs && npm run build
