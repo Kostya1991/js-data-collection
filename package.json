@@ -11,7 +11,7 @@
   "types": "./types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kostya1991"
+    "url": "https://github.com/Kostya1991/js-data-collection"
   },
   "bugs": {
     "url": "https://github.com/Kostya1991/js-data-collection/issues"
