@@ -1,7 +1,7 @@
 {
   "name": "js-data-collection",
   "private": false,
-  "version": "0.1.3",
+  "version": "1.0.0",
   "type": "module",
   "author": "Konstantin Lysov",
   "license": "MIT",
