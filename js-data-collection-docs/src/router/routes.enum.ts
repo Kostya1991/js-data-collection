@@ -4,4 +4,5 @@ export enum Routes {
 
     Queue = "/js-data-collection/queue",
     Stack = "/js-data-collection/stack",
+    LinkedList = "/js-data-collection/linkedList",
 }
