@@ -22,4 +22,9 @@ export const MENU: Menu[] = [
             {to: Routes.Example, title: "Пример", id: uuidv4()},
         ],
     },
+    {
+        title: "API",
+        id: uuidv4(),
+        links: [{to: Routes.Queue, title: "Очередь", id: uuidv4()}],
+    },
 ];
