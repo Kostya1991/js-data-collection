@@ -25,6 +25,9 @@ export const MENU: Menu[] = [
     {
         title: "API",
         id: uuidv4(),
-        links: [{to: Routes.Queue, title: "Очередь", id: uuidv4()}],
+        links: [
+            {to: Routes.Queue, title: "Очередь", id: uuidv4()},
+            {to: Routes.Stack, title: "Стэк", id: uuidv4()},
+        ],
     },
 ];

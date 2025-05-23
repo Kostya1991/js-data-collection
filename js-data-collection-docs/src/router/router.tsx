@@ -6,6 +6,7 @@ import {App} from "../App";
 import {IntroductionPage} from "../pages/Introduction/Introduction.page";
 import {ExamplePage} from "../pages/Example/Example.page";
 import {QueuePage} from "../pages/Queue/Queue.page";
+import {StackPage} from "../pages/Stack/Stack.page";
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
             {
                 path: Routes.Queue,
                 element: <QueuePage />,
+            },
+            {
+                path: Routes.Stack,
+                element: <StackPage />,
             },
         ],
     },
