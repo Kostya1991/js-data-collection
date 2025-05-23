@@ -26,10 +26,20 @@ body {
     height: 100%;
 }
 
-a.active {
+.nav-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+.nav-link.active {
     text-decoration: none;
     font-weight: bold;
     color: var(--main-color);
+    background: #f7f7f7;
+}
+.nav-link:not(.active):hover {
+    color: rgba(0, 0, 0, 1);
 }
 
 .mb-16 {

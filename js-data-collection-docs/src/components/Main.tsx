@@ -7,12 +7,14 @@ export const Main = () => {
                 width: "calc(100% - var(--sidebar-width) - var(--layout-gap))",
                 display: "flex",
                 justifyContent: "center",
+                overflowY: "scroll",
             }}
         >
             <div
                 style={{
-                    width: "800px",
+                    width: "1000px",
                     padding: "20px 40px",
+                    height: "max-content",
                 }}
             >
                 <Outlet />
