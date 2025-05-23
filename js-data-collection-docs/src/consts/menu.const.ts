@@ -17,6 +17,9 @@ export const MENU: Menu[] = [
     {
         title: "Начать",
         id: uuidv4(),
-        links: [{to: Routes.Home, title: "Введение", id: uuidv4()}],
+        links: [
+            {to: Routes.Home, title: "Введение", id: uuidv4()},
+            {to: Routes.Example, title: "Пример", id: uuidv4()},
+        ],
     },
 ];

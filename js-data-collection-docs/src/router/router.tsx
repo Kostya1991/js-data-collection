@@ -4,6 +4,7 @@ import {Routes} from "./routes.enum";
 
 import {App} from "../App";
 import {IntroductionPage} from "../pages/Introduction/Introduction.page";
+import {ExamplePage} from "../pages/Example/Example.page";
 
 export const router = createBrowserRouter([
     {
@@ -13,6 +14,10 @@ export const router = createBrowserRouter([
             {
                 index: true,
                 element: <IntroductionPage />,
+            },
+            {
+                path: Routes.Example,
+                element: <ExamplePage />,
             },
         ],
     },

@@ -9,7 +9,7 @@ export const Menu = () => {
                 <React.Fragment key={item.id}>
                     <p style={{marginBottom: "16px"}}>{item.title}</p>
                     {item.links.map((link) => (
-                        <NavLink key={link.id} to={link.to}>
+                        <NavLink className={"nav-link"} key={link.id} to={link.to} end style={{marginBottom: "8px"}}>
                             {link.title}
                         </NavLink>
                     ))}
